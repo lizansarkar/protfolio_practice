@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image:url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  border: 2px solid black;
+}
+
+.nav-tittle {
+  font-size: 4rem;
+  border: 2px solid black;
+}
+
+.praimary {
+  color: #FD6E0A;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+nav ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #FD6E0A;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+}
+
+.banner-content {
+  max-width: 600px;
+  margin-right: 50px;
+  padding: 100px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.banner-tittle {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  width: 580px;
+  height: auto;
+}
